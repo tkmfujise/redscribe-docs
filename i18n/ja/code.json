@@ -331,7 +331,10 @@
   "feature.repl": {
     "message": "インタラクティブに Ruby コードを試せます。"
   },
+  "homepage.subtitle": {
+    "message": "コードを自分専用の使いやすいドメイン固有言語で記述してみましょう。"
+  },
   "homepage.tutorial": {
-    "message": "ReDScribe チュートリアル"
+    "message": "チュートリアル"
   }
 }

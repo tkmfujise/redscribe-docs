@@ -15,14 +15,18 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          {siteConfig.title} : {siteConfig.tagline}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <Translate id="homepage.subtitle">
+            Let's re-describe your code as your own friendly domain-specific language.
+          </Translate>
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            <Translate id="homepage.tutorial">ReDScribe Tutorial</Translate>
+            <Translate id="homepage.tutorial">Tutorial</Translate>
           </Link>
         </div>
       </div>
