@@ -25,6 +25,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            to={siteConfig.customFields.githubUrl as string}>
+            GitHub
+          </Link>
+          <span style={{ margin: '0 0.5rem' }} />
+          <Link
+            className="button button--info button--lg"
+            style={{color: 'black'}}
             to="/docs/intro">
             <Translate id="homepage.tutorial">Tutorial</Translate>
           </Link>

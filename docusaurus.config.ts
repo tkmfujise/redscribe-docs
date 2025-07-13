@@ -9,6 +9,10 @@ const config: Config = {
   tagline: 'Ruby-embedded DSL for Godot.',
   favicon: 'img/favicon.ico',
 
+  customFields: {
+    githubUrl: 'https://github.com/tkmfujise/ReDScribe',
+  },
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
