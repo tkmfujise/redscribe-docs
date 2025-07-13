@@ -66,6 +66,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        { type: 'localeDropdown', position: 'right' },
         {
           href: 'https://github.com/tkmfujise/ReDScribe',
           label: 'GitHub',

@@ -4,6 +4,7 @@ import Heading from '@theme/Heading';
 import Zoom from 'react-medium-image-zoom';
 import styles from './styles.module.css';
 import 'react-medium-image-zoom/dist/styles.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -18,7 +19,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        You can execute mruby code (a lightweight Ruby) in Godot and emit signals from mruby to Godot.
+        <Translate id='feature.execution'>You can execute mruby code (a lightweight Ruby) in Godot and emit signals from mruby to Godot.</Translate>
       </>
     ),
   },
@@ -27,7 +28,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/Editor_screenshot.png').default,
     description: (
       <>
-        You can write and edit Ruby files in the Godot Editor.
+        <Translate id='feature.editing'>You can write and edit Ruby files in the Godot Editor.</Translate>
       </>
     ),
   },
@@ -36,7 +37,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/REPL_screenshot.png').default,
     description: (
       <>
-        You can try out Ruby interactively in Godot.
+        <Translate id='feature.repl'>You can try out Ruby interactively in Godot.</Translate>
       </>
     ),
   },
