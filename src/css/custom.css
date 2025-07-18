@@ -33,3 +33,9 @@
 article img {
   border: 1px solid gray;
 }
+
+article pre, article code {
+  tab-size: 4;
+  -moz-tab-size: 4;
+}
+
