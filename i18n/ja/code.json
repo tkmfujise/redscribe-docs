@@ -336,5 +336,8 @@
   },
   "homepage.tutorial": {
     "message": "チュートリアル"
+  },
+  "homepage.showcase": {
+    "message": "ショーケース"
   }
 }

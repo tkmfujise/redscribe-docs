@@ -11,6 +11,10 @@
     "message": "チュートリアル",
     "description": "Navbar item with label Tutorial"
   },
+  "item.label.Showcase": {
+    "message": "ショーケース",
+    "description": "Navbar item with label Showcase"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"

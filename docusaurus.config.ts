@@ -70,6 +70,11 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        {
+          to: '/showcase',
+          label: 'Showcase',
+          position: 'left',
+        },
         { type: 'localeDropdown', position: 'right' },
         {
           href: 'https://github.com/tkmfujise/ReDScribe',
@@ -88,8 +93,21 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'Showcase',
+              to: '/showcase',
+            },
           ],
         },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/tkmfujise/ReDScribe',
+            }
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} tkmfujise. Built with Docusaurus.`,
     },
