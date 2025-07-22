@@ -45,8 +45,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Ruby-embedded DSL for Godot">
+      title={`${siteConfig.title}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
