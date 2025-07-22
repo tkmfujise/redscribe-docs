@@ -60,6 +60,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/social_card.png',
+    metadata: [
+      { name: 'keywords', content: 'Godot, Ruby, mruby, ゲーム, Game, DSL, ReDScribe' },
+      { name: 'description', content: 'ReDScribe is a Ruby-embedded DSL for Godot. It enables writing DSL code in mruby directly inside Godot for streamlined game development.' },
+    ],
     navbar: {
       title: 'ReDScribe',
       logo: {
