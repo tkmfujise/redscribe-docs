@@ -88,6 +88,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://github.com/tkmfujise/redscribe-docs-demo',
+          label: 'Demo',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -103,6 +108,10 @@ const config: Config = {
             {
               label: 'Showcase',
               to: '/showcase',
+            },
+            {
+              label: 'Demo',
+              href: 'https://github.com/tkmfujise/redscribe-docs-demo',
             },
           ],
         },
