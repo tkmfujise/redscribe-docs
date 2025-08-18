@@ -39,3 +39,6 @@ article pre, article code {
   -moz-tab-size: 4;
 }
 
+article iframe {
+  max-width: 100%;
+}
